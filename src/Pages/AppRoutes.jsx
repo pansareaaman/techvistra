@@ -5,6 +5,7 @@ import HomePage from './HomePage'
 import Header from '../Components/Header/Header'
 import Footer from '../Components/Footer/Footer'
 import AboutPage from './AboutPage'
+import ContactPage from './ContactPage'
 
 const AppRoutes = () => {
   return (
@@ -13,7 +14,7 @@ const AppRoutes = () => {
       <div className='relative'>
       <Header  />
       <Routes>
-        <Route path='/' element= { <HomePage/>}  />
+        <Route path='/' element= { <ContactPage/>}  />
         {/* <Route path='/' element= { <AboutPage/>}  /> */}
 
 
