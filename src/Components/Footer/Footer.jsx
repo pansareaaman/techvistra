@@ -39,9 +39,9 @@ const Footer = () => {
           </div>
         </div>
            
-          <div className="md-mx:flex justify-evenly  gap-8">
+          <div className=" flex gap-11 md:col-span-2  md:gap-8 md-mx:justify-evenly ">
         {/* Middle Section - Services */}
-        <div className="text-center md:text-left">
+        <div className="text-center md:text-left ">
           <h3 className="text-lg font-semibold text-white">Our Services</h3>
           <ul className="mt-3 space-y-2 text-sm">
             <li>Custom Software Development</li>
@@ -55,7 +55,7 @@ const Footer = () => {
         </div>
 
         {/* Right Section - Company */}
-        <div className="text-center md:text-left">
+        <div className="text-center md:text-left ">
           <h3 className="text-lg font-semibold text-white">Company</h3>
           <ul className="mt-3 space-y-2 text-sm">
             <li>About Us</li>
@@ -67,7 +67,6 @@ const Footer = () => {
           </ul>
         </div>
         </div>
-
 
       </div>
 
