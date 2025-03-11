@@ -4,8 +4,11 @@ import React from "react";
 import { Divider } from "@mantine/core";
 
 const Footer = () => {
-  return (
-    <footer className="bg-[#0d0c1d] text-gray-300 pb-10 px-5">
+  return ( 
+    <footer className="bg-[#0d0c1d] text-gray-300 py-10 px-5">
+
+    <Divider className=" px-7 py-7 " color='#2d2d2d'  size="sm"  />
+
       {/* <div className="max-w-6xl mx-auto grid md:grid-cols-3 gap-8"> */}
       <div className=" mx-auto flex gap-8">
 

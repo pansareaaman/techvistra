@@ -6,20 +6,20 @@ const WhoWeAre = () => {
             {/* Image Section */}
             <div className="relative w-full md:w-1/2 flex justify-center">
                 {/* Background Blur Effect */}
-                <div className="absolute top-6 left-6 w-60 h-60 bg-white/10 rounded-xl blur-lg"></div>
+                {/* <div className="absolute top-6 left-6 w-60 h-60 bg-white/10 rounded-xl blur-lg"></div> */}
 
                 {/* Main Image */}
                 <img
                     src="/Image/Rectangle 29.png"
                     alt="TechVistra"
-                    className="relative top-0  w-60 md:w-60 rounded-xl shadow-lg"
+                    className="relative w-56 md:w-56 right-20 -top-20 rounded-xl shadow-lg"
                 />
 
                 {/* Overlay Image */}
                 <img
                     src="/Image/Rectangle30.png"
                     alt="Overlay"
-                    className="absolute z-10 pt-10 -[-40px] right-[10px] w-48 md:w-64 rounded-xl shadow-lg opacity-90"
+                    className="absolute -bottom-16 right-24 w-48 md:w-60 rounded-xl shadow-lg opacity-100"
                 />
             </div>
 

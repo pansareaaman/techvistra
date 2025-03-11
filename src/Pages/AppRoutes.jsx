@@ -14,8 +14,9 @@ const AppRoutes = () => {
       <div className='relative'>
       <Header  />
       <Routes>
-        <Route path='/' element= { <ContactPage/>}  />
-        {/* <Route path='/' element= { <AboutPage/>}  /> */}
+        <Route path='/contact' element= { <ContactPage/>}  />
+        <Route path='/' element= { <HomePage/>}  />
+        <Route path='/about-us' element= { <AboutPage/>}  />
 
 
 

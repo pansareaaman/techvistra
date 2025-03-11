@@ -4,6 +4,8 @@ import '@mantine/core/styles.css';
 import { Button, createTheme, MantineProvider } from '@mantine/core';
 import AppRoutes from './Pages/AppRoutes';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { animated } from '@react-spring/web';
+
 
 const theme = createTheme({
   focusRing:"never",
@@ -22,7 +24,7 @@ const theme = createTheme({
     'brightSun': [ '#f1fcf5', '#defaea', '#bef4d4','#8beab2','#52d689','#27ae60', '#1d9c53', '#1a7b43', '#1a6139','#175031', '#072c18'],
   
   },
-  fontFamily:"Outfit,sans-serif"
+  fontFamily:"Outfit,sans-serif,Poppins"
 })
 
 function App() {

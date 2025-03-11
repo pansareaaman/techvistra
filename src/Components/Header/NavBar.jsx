@@ -1,5 +1,6 @@
 import { Avatar } from "@mantine/core";
 import React, { useState } from "react";
+import NavLinks from "./NavLinks";
 
 const NavBar = () => {
   const [active, setActive] = useState("Home");
@@ -15,7 +16,7 @@ const NavBar = () => {
       </div>
 
       {/* Navigation Links */}
-      <ul className="flex space-x-6">
+      {/* <ul className="flex space-x-6">
         {["Home", "About Us", "Services", "Testimonials", "Contact"].map(
           (item) => (
             <li key={item}>
@@ -34,7 +35,8 @@ const NavBar = () => {
             </li>
           )
         )}
-      </ul>
+      </ul> */}
+      <NavLinks />
 
       {/* Discover Button */}
       <button className="bg-[#6b5cb2] text-white px-6 py-2 rounded-lg border border-[#5a4a9c] hover:bg-[#5a4a9c] transition">
