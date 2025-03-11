@@ -24,7 +24,7 @@ const ContactForm = () => {
             <input type="email" placeholder="example@yourmail.com" className="w-full p-3 rounded bg-gray-700 border border-gray-600 text-white" />
             <input type="text" placeholder="Subject" className="w-full p-3 rounded bg-gray-700 border border-gray-600 text-white" />
             <textarea placeholder="Message" className="w-full p-3 h-32 rounded bg-gray-700 border border-gray-600 text-white"></textarea>
-            <button className="w-full bg-blue-500 hover:bg-blue-600 text-white font-semibold p-3 rounded">SUBMIT</button>
+            <button className="w-full bg-gradient-to-r from-[#A9A9D2] to-[#C4C4DE] text-white font-semibold p-3 rounded">SUBMIT</button>
           </form>
         </div>
 
