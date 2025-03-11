@@ -14,7 +14,7 @@ const HomePage = () => {
       <ServicesCards/>
       <MissionValuesCards/>
       <AI/>
-      <TestimonialsPage/>
+      {/* <TestimonialsPage/> */}
       <IntegrationTechnologies/>
     </div>
   )
